@@ -4,60 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turtle Home Page</title>
-    <link rel="stylesheet" href="instructions.css">
-    <script>
-        window.onblur = function () {
-            //change favicon
-            document.title = "bye";
-        }
-        window.onfocus = function () {
-            //change favicon
-            document.title = "Turtle Home Page";
-        }
-    </script>
-    <style>
-        body {
-            background-image: url("assets/Blue.jpg");
-            background-repeat: repeat;
-            background-size: initial;
-            background-position: center;
-        }
-    </style>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body>
-    <div class="slideshow-container">
+<body class="bg-primary container-fluid">
 
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img class="slideshow-width" src="Assets/1.png">
-            <div class="text">Step 1</div>
+    <div class="row bg-white">
+        <div class="col"><img
+                src="https://imgs.search.brave.com/eHVfo69Byui0NwZUbTDxslnkgBQpgVkw5FVxcztveJw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/dmVudC5jb20vYmxv/Zy93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wNC9UaGUtZWxl/dmVudGgtY3VycmVu/dC12ZXJzaW9uLW9m/LXRoZS1MRUdPLWxv/Z28ucG5n"
+                alt="" class="img-fluid" style="height: 100px;">
         </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img class="slideshow-width" src="Assets/2.png">
-            <div class="text">Step 2</div>
+        <div class="col my-auto">
+            <a href="index.html" style="color: black; font-size: 30px;">Home</a>
         </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img class="slideshow-width" src="Assets/3.png">
-            <div class="text">Step 3</div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-</body>
-<br>
 
+    <div class="row pt-3">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false"  >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Assets/1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/4.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/5.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/6.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/7.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/8.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    </div>
 
-<div class="navbar">
-    <img src="https://imgs.search.brave.com/eHVfo69Byui0NwZUbTDxslnkgBQpgVkw5FVxcztveJw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/dmVudC5jb20vYmxv/Zy93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wNC9UaGUtZWxl/dmVudGgtY3VycmVu/dC12ZXJzaW9uLW9m/LXRoZS1MRUdPLWxv/Z28ucG5n"
-        alt="Lego logo" class="width-10" padding-right="40%">
-    <h2><a href="index.html">Home</a></h2>
-</div>
-<script src="act.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
+</html>
