@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtle Home Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <script>
+        window.onblur = function () {
+            //change favicon
+            document.title = "bye";
+        }
+        window.onfocus = function () {
+            //change favicon
+            document.title = "Turtle Home Page";
+        }
+    </script>
+    <style>
+        body {
+            background-image: url("assets/Blue.jpg");
+            background-repeat: repeat;
+            background-size: initial;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="Assets/front.png" style="width:50%">
+                <div class="text">Front</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="Assets/back.png" style="width:50%">
+                <div class="text">Back</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="Assets/a.png" style="width:50%">
+                <div class="text">Full Box</div>
+            </div>
+        </div>
+        <br>
+
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <img src="Assets/infoog.png" alt="Information" class="top-right" width="50%" height="50%">
+    <img src="Assets/info2.png" alt="Information" class="top-right2" width="50%" height="50%">
+
+    <div class="navbar">
+        <img src="https://imgs.search.brave.com/eHVfo69Byui0NwZUbTDxslnkgBQpgVkw5FVxcztveJw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/dmVudC5jb20vYmxv/Zy93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wNC9UaGUtZWxl/dmVudGgtY3VycmVu/dC12ZXJzaW9uLW9m/LXRoZS1MRUdPLWxv/Z28ucG5n"
+            alt="Lego logo" class="width-10" padding-right="40%">
+        <h2><a href="Instructions.html">Instructions</a></h2>
+    </div>
+    <script src="act.js"></script>
+</body>
+
+</html>
